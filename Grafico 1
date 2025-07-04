@@ -1,0 +1,20 @@
+{
+  "type": "bar",
+  "data": {
+    "labels": ["Nunca (1)", "Rara vez (2)", "A veces (3)", "Casi siempre (4)", "Siempre (5)"],
+    "datasets": [{
+      "label": "Frecuencia de Respuestas",
+      "data": [2, 3, 6, 4, 1],
+      "backgroundColor": "rgba(54, 162, 235, 0.6)",
+      "borderColor": "rgba(54, 162, 235, 1)",
+      "borderWidth": 1
+    }]
+  },
+  "options": {
+    "scales": {
+      "y": { "title": { "display": true, "text": "Número de Jugadores" }, "beginAtZero": true },
+      "x": { "title": { "display": true, "text": "Corazón Acelerado (P5)" } }
+    },
+    "plugins": { "title": { "display": true, "text": "Distribución de Respuestas a P5" } }
+  }
+}
